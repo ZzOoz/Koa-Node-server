@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "baseUrl": ".",
+      "rootDir": ".",
+      "paths": {
+        "@config": ["src/config"],
+        "@src/*": ["src/*"],
+        "@root": ["."],
+        "@model": ["app/model"],
+        "@core": ["core"],
+        "@middleware": ["middleware"],
+        "@validator": ["app/validators/validator.js"],
+        "@services": ["app/services"],
+        "@lib": ["app/lib"]
+      }
+    }
+  }
